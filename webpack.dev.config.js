@@ -37,7 +37,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      title: 'hello world',
+      title: 'Cnode.js',
       template: 'templete/index.html'
     }),
     new OpenBrowserPlugin({
